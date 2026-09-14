@@ -1,0 +1,192 @@
+{
+  "pku": {
+    "name": "北京大学",
+    "collector": "collectors.pku",
+    "strategy": "json_api",
+    "entry_url": "https://scc.pku.edu.cn/frontpage/pku/html/recruitmentinfoList.html?type=1",
+    "requires_domestic_ip": true
+  },
+  "tsinghua": {
+    "name": "清华大学",
+    "collector": "collectors.tsinghua",
+    "strategy": "post_html",
+    "entry_url": "https://career.cic.tsinghua.edu.cn/xsglxt/f/jyxt/anony/xxfb",
+    "requires_domestic_ip": true
+  },
+  "ruc": {
+    "name": "中国人民大学", "collector": "collectors.ruc", "strategy": "json_api_list_restricted_detail",
+    "entry_url": "https://career.ruc.edu.cn/", "requires_domestic_ip": true
+  },
+  "buaa": {
+    "name": "北京航空航天大学", "collector": "collectors.buaa", "strategy": "json_api",
+    "entry_url": "https://career.buaa.edu.cn/frontpage/buaa/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "bit": {
+    "name": "北京理工大学", "collector": "collectors.bit", "strategy": "json_api",
+    "entry_url": "https://job.bit.edu.cn/frontpage/bit/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "bnu": {
+    "name": "北京师范大学", "collector": "collectors.bnu", "strategy": "json_api",
+    "entry_url": "https://career.bnu.edu.cn/frontpage/bnu/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "ustb": {
+    "name": "北京科技大学", "collector": "collectors.ustb", "strategy": "json_api",
+    "entry_url": "https://job.ustb.edu.cn/frontpage/ustb/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "cau": {
+    "name": "中国农业大学", "collector": "collectors.cau", "strategy": "json_api",
+    "entry_url": "https://scc.cau.edu.cn/frontpage/cau/html/recruitmentinfoList.html", "requires_domestic_ip": true
+  },
+  "uibe": {
+    "name": "对外经济贸易大学", "collector": "collectors.uibe", "strategy": "encrypted_json_api",
+    "entry_url": "https://career.uibe.edu.cn/front/channel.jspa?channelId=764&parentId=625", "requires_domestic_ip": true
+  },
+  "bjfu": {
+    "name": "北京林业大学", "collector": "collectors.bjfu", "strategy": "json_api",
+    "entry_url": "https://job.bjfu.edu.cn/frontpage/bjfu/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "cup": {
+    "name": "中国石油大学（北京）", "collector": "collectors.cup", "strategy": "get_html_embedded",
+    "entry_url": "https://career.cup.edu.cn/campus", "requires_domestic_ip": true
+  },
+  "nankai": {
+    "name": "南开大学", "collector": "collectors.nankai", "strategy": "post_html",
+    "entry_url": "https://career.nankai.edu.cn/correcruit/index.html", "requires_domestic_ip": true
+  },
+  "tju": {
+    "name": "天津大学", "collector": "collectors.tju", "strategy": "public_homepage_html_partial",
+    "entry_url": "https://job.tju.edu.cn/", "requires_domestic_ip": true
+  },
+  "sjtu": {
+    "name": "上海交通大学", "collector": "collectors.sjtu", "strategy": "public_homepage_json_detail_partial",
+    "entry_url": "https://www.job.sjtu.edu.cn/career/zpxx/zpxx?lmbh=40", "requires_domestic_ip": true
+  },
+  "fudan": {
+    "name": "复旦大学", "collector": "collectors.fudan", "strategy": "network_blocked_ipv6_502",
+    "entry_url": "https://career.fudan.edu.cn/Zhaopin/zhiweiList.html?jobtype=1", "requires_domestic_ip": true
+  },
+  "tongji": {
+    "name": "同济大学", "collector": "collectors.tongji", "strategy": "json_api",
+    "entry_url": "https://tj91.tongji.edu.cn/frontpage/tongji/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "ecnu": {
+    "name": "华东师范大学", "collector": "collectors.ecnu", "strategy": "public_homepage_json_detail_partial",
+    "entry_url": "https://career.ecnu.edu.cn/career/zwxx?gzlx=5100", "requires_domestic_ip": true
+  },
+  "nju": {
+    "name": "南京大学", "collector": "collectors.nju", "strategy": "json_api",
+    "entry_url": "https://job.nju.edu.cn/career/jobs-v2?fullTime=true", "requires_domestic_ip": true
+  },
+  "seu": {
+    "name": "东南大学", "collector": "collectors.seu", "strategy": "unstable_waf_access",
+    "entry_url": "https://seu.91job.org.cn/sub-station/campus?xxdm=10286", "requires_domestic_ip": true
+  },
+  "suda": {
+    "name": "苏州大学", "collector": "collectors.suda", "strategy": "unstable_waf_access",
+    "entry_url": "https://suda.91job.org.cn/sub-station/campus?xxdm=10285", "requires_domestic_ip": true
+  },
+  "jlu": {
+    "name": "吉林大学", "collector": "collectors.jlu", "strategy": "get_html",
+    "entry_url": "https://jdjyw.jlu.edu.cn/portal/jyzp/recruit/list?type=2", "requires_domestic_ip": true
+  },
+  "dlut": {
+    "name": "大连理工大学", "collector": "collectors.dlut", "strategy": "json_api",
+    "entry_url": "https://job.dlut.edu.cn/frontpage/dlut/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "hit": {
+    "name": "哈尔滨工业大学", "collector": "collectors.hit", "strategy": "json_api",
+    "entry_url": "https://career.hit.edu.cn/zhxy-xszyfzpt/zpxx", "requires_domestic_ip": true
+  },
+  "hrbeu": {
+    "name": "哈尔滨工程大学", "collector": "collectors.hrbeu", "strategy": "json_api_login_restricted_detail",
+    "entry_url": "https://job.hrbeu.edu.cn/frontpage/hrbeu/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "lzu": {
+    "name": "兰州大学", "collector": "collectors.lzu", "strategy": "visible_chrome_cdp_html",
+    "entry_url": "https://job.lzu.edu.cn/html/74/article/list/list_1.html", "requires_domestic_ip": true
+  },
+  "uestc": {
+    "name": "电子科技大学", "collector": "collectors.uestc", "strategy": "json_api",
+    "entry_url": "https://jiuye.uestc.edu.cn/career/recruitment/online", "requires_domestic_ip": true
+  },
+  "scu": {
+    "name": "四川大学", "collector": "collectors.scu", "strategy": "chrome_cdp_rendered_html",
+    "entry_url": "https://jy.scu.edu.cn/index/index/employjob.html", "requires_domestic_ip": true
+  },
+  "swpu": {
+    "name": "西南石油大学", "collector": "collectors.swpu", "strategy": "chrome_cdp_rendered_html",
+    "entry_url": "https://jyzx.swpu.edu.cn/module/news?menu_id=21758&type_id=10229", "requires_domestic_ip": true
+  },
+  "cqu": {
+    "name": "重庆大学", "collector": "collectors.cqu", "strategy": "chrome_cdp_rendered_html",
+    "entry_url": "https://cqu.cqbys.com/campus", "requires_domestic_ip": true
+  },
+  "xjtu": {
+    "name": "西安交通大学", "collector": "collectors.xjtu", "strategy": "json_api",
+    "entry_url": "https://job.xjtu.edu.cn/frontpage/xjtu/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "xidian": {
+    "name": "西安电子科技大学", "collector": "collectors.xidian", "strategy": "get_html_embedded",
+    "entry_url": "https://job.xidian.edu.cn/campus", "requires_domestic_ip": true
+  },
+  "nwpu": {
+    "name": "西北工业大学", "collector": "collectors.nwpu", "strategy": "chrome_cdp_rendered_html",
+    "entry_url": "https://job.nwpu.edu.cn/frontpage/nwpu/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "chd": {
+    "name": "长安大学", "collector": "collectors.chd", "strategy": "get_html_detail_date",
+    "entry_url": "https://51uns.bysjy.com.cn/Announce?schoolCode=10710", "requires_domestic_ip": true
+  },
+  "hust": {
+    "name": "华中科技大学", "collector": "collectors.hust", "strategy": "get_html",
+    "entry_url": "https://job.hust.edu.cn/searchJob.do?fbsj=&type=2", "requires_domestic_ip": true
+  },
+  "whu": {
+    "name": "武汉大学", "collector": "collectors.whu", "strategy": "json_api",
+    "entry_url": "https://xsjy.whu.edu.cn/frontpage/whu/html/recruitmentinfoList.html?type=1", "requires_domestic_ip": true
+  },
+  "wut": {
+    "name": "武汉理工大学", "collector": "collectors.wut", "strategy": "http_session_json_api",
+    "entry_url": "https://scc.whut.edu.cn/#/recruitmentInformation/notice/noticeList?type=enrollment&clickid=0", "requires_domestic_ip": true
+  },
+  "csu": {
+    "name": "中南大学", "collector": "collectors.csu", "strategy": "get_html_packed_detail",
+    "entry_url": "https://career.csu.edu.cn/campus/index/category/1", "requires_domestic_ip": true
+  },
+  "hnu": {
+    "name": "湖南大学", "collector": "collectors.hnu", "strategy": "json_api_html_detail",
+    "entry_url": "https://scc.hnu.edu.cn/module/onlines?menu_id=3231&type=1", "requires_domestic_ip": true
+  },
+  "sysu": {
+    "name": "中山大学", "collector": "collectors.sysu", "strategy": "get_html_packed",
+    "entry_url": "https://career.sysu.edu.cn/campus", "requires_domestic_ip": true
+  },
+  "scut": {
+    "name": "华南理工大学", "collector": "collectors.scut", "strategy": "login_required",
+    "entry_url": "https://jyzx.scut.edu.cn/", "requires_domestic_ip": true
+  },
+  "xmu": {
+    "name": "厦门大学", "collector": "collectors.xmu", "strategy": "get_html_packed",
+    "entry_url": "https://jy.xmu.edu.cn/campus", "requires_domestic_ip": true
+  },
+  "zju": {
+    "name": "浙江大学", "collector": "collectors.zju", "strategy": "json_api",
+    "entry_url": "https://www.career.zju.edu.cn/jyxt/sczp/zphgl/ckZpgwList.zf", "requires_domestic_ip": true
+  },
+  "ustc": {
+    "name": "中国科学技术大学", "collector": "collectors.ustc", "strategy": "external_chrome_cdp_rendered_html",
+    "entry_url": "https://www.job.ustc.edu.cn/Recruitment/list.aspx", "requires_domestic_ip": true
+  },
+  "sdu": {
+    "name": "山东大学", "collector": "collectors.sdu", "strategy": "get_html_session",
+    "entry_url": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=null&subsyscode=zpfw&type=ssoSearchZxzp&xxlb=5100", "requires_domestic_ip": true
+  },
+  "ouc": {
+    "name": "中国海洋大学", "collector": "collectors.ouc", "strategy": "post_json_get_html",
+    "entry_url": "http://career.ouc.edu.cn/zftal-web/zfjy!ykfw/zpztgl_cxZpztList.html", "requires_domestic_ip": true
+  },
+  "zzu": {
+    "name": "郑州大学", "collector": "collectors.zzu", "strategy": "playwright_rendered_html",
+    "entry_url": "https://job.zzu.edu.cn/campus", "requires_domestic_ip": true
+  }
+}

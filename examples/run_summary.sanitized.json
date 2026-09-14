@@ -1,0 +1,71 @@
+{
+  "schema": "sanitized_run_summary_v1",
+  "start": "2026-09-06T00:00:00+08:00",
+  "end": "2026-09-08T23:59:59+08:00",
+  "filters": {},
+  "schools": {
+    "ustc": {
+      "status": "completed",
+      "strategy": "external_chrome_cdp_rendered_html",
+      "pages": 18,
+      "matched": 153,
+      "details_success": 153,
+      "details_failed": 0
+    },
+    "scut": {
+      "status": "restricted"
+    },
+    "scu": {
+      "status": "completed",
+      "strategy": "chrome_cdp_rendered_html",
+      "pages": 15,
+      "matched": 237,
+      "details_success": 237,
+      "details_failed": 0
+    },
+    "swpu": {
+      "status": "completed",
+      "strategy": "chrome_cdp_rendered_html",
+      "pages": 1,
+      "matched": 0,
+      "details_success": 0,
+      "details_failed": 0
+    },
+    "cqu": {
+      "status": "completed",
+      "strategy": "chrome_cdp_rendered_html",
+      "pages": 9,
+      "matched": 136,
+      "details_success": 136,
+      "details_failed": 0
+    },
+    "nwpu": {
+      "status": "completed",
+      "strategy": "chrome_cdp_rendered_html",
+      "pages": 8,
+      "matched": 47,
+      "details_success": 47,
+      "details_failed": 0
+    },
+    "hrbeu": {
+      "status": "completed_with_restricted_details",
+      "strategy": "json_api_login_restricted_detail",
+      "pages": 10,
+      "matched": 98,
+      "details_success": 0,
+      "details_restricted": 98,
+      "details_failed": 0
+    },
+    "lzu": {
+      "status": "completed",
+      "strategy": "visible_chrome_cdp_html",
+      "pages": 3,
+      "matched": 21,
+      "details_success": 21,
+      "details_failed": 0,
+      "skipped_external_links": 3
+    }
+  },
+  "all_records": 692,
+  "completed_at": "2026-09-09T09:41:28+08:00"
+}
